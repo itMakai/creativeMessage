@@ -1,3 +1,32 @@
 body{
-	background-color: chartreuse;
+	background-color: rgb(22, 216, 230);
+	/* background-image: url('love.jpeg'); */
+	/* background-repeat: no-repeat; */
+	background-size: fixed;
+	color: rgb(0, 255, 115);
+	font-style: italic;
+
+}
+#inputs{
+	background-color: red;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 30% 0  30%;
+	font-size: x-large;
+}
+button{
+	padding: 10px;
+	margin-top: 10px;
+	font-size: medium;
+	cursor: pointer;
+	border-radius: 20% 10% 30%;
+}
+#name,
+#receiversName{
+	padding: 10px;
+	border-radius: 50% 0 50%;
+	background-color: rgb(16, 99, 71);
+	margin: 5px;
+	color: aliceblue;
+	font-size: 12px;
 }
